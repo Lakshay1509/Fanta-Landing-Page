@@ -40,8 +40,6 @@ html,body{
     background-color: #dc2f02;
     border-radius: 0.5rem;
     position: fixed;
-    
-    
     top: 0;
     left: 0;
     right: 0;
@@ -867,4 +865,295 @@ button:active {
 
 .copyright p{
     margin-bottom: 40px;
+}
+
+@media (max-width:1050px){
+
+    .intro h1 {
+        color: #fff;
+        font-size: 15rem;
+        font-weight: 900;
+    }
+    .fanta{
+        width: 40vh;
+        top:20%;
+    }
+
+    .orange{
+        z-index: 3;
+        top:40%;
+        right: 28%;
+    }
+
+    .content1{
+        position: absolute;
+        left:67%;
+        top:-10%;
+        font-size: 1.25rem;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+       
+    }
+
+    .content2{
+        position: absolute;
+        left:4%;
+        top:25%;
+        font-size: 1.25rem;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .brands-main h1{
+        font-size: 8rem;
+    }   
+
+    .privacy p{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width:800px){
+
+    #home{
+        height: auto;
+    }
+
+    #content{
+        margin-top: 100px;
+    }
+
+    .intro h1 {
+        color: #fff;
+        font-size: 10rem;
+        font-weight: 900;
+    }
+
+    .fanta{
+        width: 30vh;
+        top:12%;
+    }
+
+    .orange{
+        z-index: 3;
+        top:30%;
+        right: 28%;
+    }
+    .orange-slice{
+        
+        width: 12%;
+        top:10%;
+        left: 37%;
+        z-index: 1;
+    }
+    .content2{
+        position: absolute;
+        left:2%;
+        top:25%;
+        font-size: 1.15rem;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .brands-main h1{
+        font-size: 5rem;
+        left: 61%;
+        
+    }  
+    .about-right img{
+        width: 200px;
+        aspect-ratio: 1/1;
+    }
+    .find-us p{
+        font-size: 1.15rem;
+    }
+
+    .privacy p{
+        font-size: 1rem;
+        
+    }
+    .privacy{
+        width: 80%;
+    }
+
+    .center-content div{
+        background-size: 104px;
+        height: 25vh;
+
+    }
+
+
+
+}
+
+@media (max-width:500px){
+    
+    
+
+    #home{
+        margin-top: 100px;
+    }
+
+    .nav img{
+        width: 20%;
+        margin-top: 30px;
+    }
+    .nav{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav span{
+        visibility: hidden;
+    }
+
+    .nav ul{
+        width: 30%;
+    }
+
+    .nav ul li{
+        font-size: 1rem;
+    }
+
+    .intro h1 {
+        color: #fff;
+        font-size: 6rem;
+        font-weight: 900;
+    }
+    .fanta{
+        width: 20vh;
+        top:18%;
+    }
+
+    .orange-slice{
+        
+        width: 12%;
+        top:16%;
+        left: 37%;
+        z-index: 1;
+    }
+
+    .right h1{
+        font-size: 3rem;
+    }
+    .right p{
+        font-size: 1rem;
+    }
+    .right-content{
+        margin-right: 20px;
+    }
+
+    #content{
+        margin-top: 0px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left{
+        visibility: hidden;
+        height: 0vh;
+    }
+    .right{
+        width: 100%;
+    }
+
+    .content2{
+        font-size: 1rem;
+        width: 20%;
+    }
+    .content1{
+        font-size: 1rem;
+        width: 20%;
+        left:80%;
+    }
+    .brands-main h1{
+        font-size: 3.5rem;
+        left: 55%;
+        
+    }  
+    .about-us{
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(#6a040f,#370617 );
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .about-left{
+        width: 100%;
+    }
+    .footer-img{
+        left: 37%;
+
+    }
+    .find-us {
+        width: 100%;
+    }
+
+    .center-content{
+        flex-direction: column;
+        gap:1rem;
+    }
+    .center-content div{
+        height: 9vh;
+        background-size: 70px;
+    }
+
+
+    
+
+}
+
+@media (max-width:400px){
+
+
+    #home{
+        margin-top: 100px;
+    }
+
+    #content{
+        margin-top: 0px;
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .brands-main h1{
+        font-size: 3rem;
+        left: 55%;
+        
+    }  
+
+    .find-us p{
+        font-size: 1rem;
+    }
+
 }
